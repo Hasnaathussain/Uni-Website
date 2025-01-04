@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Electronics - QAU</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="{{ url_for('static', filename='images/qau_logo.jpg') }}" alt="QAU Logo" class="qau-logo">
+            <div class="header-text">
+                <div class="marquee">
+                    <p>Welcome to the Department of Electronics - Latest News: Research grant awarded to Dr. Kamran</p>
+                </div>
+                <header> 
+                <h1>Department of Electronics</h1>
+                <p>Quaid-i-Azam University, Islamabad</p>
+                </header>
+            </div>
+            <button id="theme-toggle">Toggle Theme</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="intro">
+        <h2>Introduction</h2>
+        <p><b>Name:</b> Your Name</p>
+        <p><b>Semester:</b> Your Semester</p>
+        <p><b>Roll No.:</b> Your Roll Number</p>
+        <p><b>Project:</b> Website for Department of Electronics, QAU</p>
+    </section>
+
+    <section id="about">
+        <h2>About the Department</h2>
+        <div class="tabs">
+            <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+            <button class="tablinks" onclick="openTab(event, 'Mission')">Mission</button>
+            <button class="tablinks" onclick="openTab(event, 'Vision')">Vision</button>
+        </div>
+
+        <div id="Overview" class="tabcontent" style="display: block;">
+            <p>The Department of Electronics at Quaid-i-Azam University is a leading center for education and research in electronics. We offer undergraduate (BS) and postgraduate (MS, MPhil, PhD) programs, and our faculty are actively involved in cutting-edge research.</p>
+        </div>
+
+        <div id="Mission" class="tabcontent">
+            <p>Our mission is to provide high-quality education and foster research excellence in the field of electronics. We aim to produce skilled professionals and researchers who can contribute to the technological advancement of society.</p>
+        </div>
+
+        <div id="Vision" class="tabcontent">
+            <p>To be recognized as a globally renowned institution in electronics education and research, making significant contributions to the field and addressing the challenges of the future.</p>
+        </div>
+    </section>
+
+    <section id="faculty">
+        <h2>Faculty Members</h2>
+        <div class="faculty-list">
+            </div>
+    </section>
+
+    <section id="research">
+        <h2>Research Areas</h2>
+        <div class="research-list">
+            </div>
+    </section>
+
+    <section id="programs">
+        <h2>Programs Offered</h2>
+        <div class="programs-list">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Department of Electronics, QAU</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
