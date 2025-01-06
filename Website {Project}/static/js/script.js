@@ -17,10 +17,12 @@ function loadFaculty() {
                 div.className = "faculty-item";
                 div.innerHTML = `
                     <h3>${member.name}</h3>
+                    <h3>${member.Designation}</h3>
                     <img src="${member.image}" alt="${member.name}" style="width:100%; max-height:200px; object-fit: cover;">
-                    <p><b>Area:</b> ${member.area}</p>
                     <button class="toggle-button">Show More</button>
                     <div class="toggle-content">
+                        <p><b>Qualifications:</b> ${member.Qualifications}</p>
+                        <p><b>Publications:</b> <a href="${member.Publications}" target="_blank" rel="noopener noreferrer">${member.Publications}</a></p>                        <p><b>Area:</b> ${member.Area}</p>
                         <p><b>Email:</b> <a href="mailto:${member.email}">${member.email}</a></p>
                         <p><b>Office:</b> ${member.office || 'N/A'}</p>
                         <p><b>Phone:</b> ${member.phone || 'N/A'}</p>
