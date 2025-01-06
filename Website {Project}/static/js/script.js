@@ -79,6 +79,7 @@ function loadPrograms() {
                     <h3>${program.name}</h3>
                     <button class="toggle-button">Show More</button>
                     <div class="toggle-content">
+                        <p><b>Prerequisite qualifications:</b> ${program.Prerequisite}</p>
                         <p><b>Duration:</b> ${program.duration}</p>
                         <p><b>Credits:</b> ${program.credits}</p>
                         <p>${program.description}</p>
