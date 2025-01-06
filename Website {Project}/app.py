@@ -5,18 +5,24 @@ app = Flask(__name__, static_folder='static')
 # Sample data (replace with your actual data)
 faculty_data = [
     {
-        "name": "Dr. John Doe",
+        "name": "Dr. Musarat Abaas",
+        "Designation": "Associate Professor",
         "image_filename": "DSC_0159.jpeg",  # Store only the filename here
-        "area": "Signal Processing",
-        "email": "john.doe@qau.edu.pk",
+        "Qualifications":"BS in Electronics, MS in Electrical Engineering & PhD in Degital Design",
+        "Publications":"https://www.researchgate.net/profile/Musarat-Abbas-3",
+        "Area": "Digital Design, VLSI Design, Embedded Systems, FPGA Design, Verilog, System Verilog, and Computer Architecture",
+        "email": "Musarat.Abbas@qau.edu.pk",
         "office": "Room 101",
         "phone": "+92-51-1234567"
     },
     {
-        "name": "Dr. Jane Smith",
+        "name": "Dr. Qaisar Abbas", 
+        "Designation": "Head of Department",
         "image_filename": "DSC_0016.jpeg",  # Store only the filename here
-        "area": "VLSI Design",
-        "email": "jane.smith@qau.edu.pk",
+        "Qualifications":"BS in Electronics, MS in Electrical Engineering & PhD in Electronics",
+        "Publications":"https://www.researchgate.net/profile/Q-Naqvi",
+        "Area": "Metamaterials, Antennas, Photonics, Optoelectronics, Nanotechnology, and Microwave Engineering",
+        "email": "Q.Abbas@qau.edu.pk",
         "office": "Room 102",
         "phone": "+92-51-9876543"
     },
