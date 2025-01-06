@@ -115,14 +115,6 @@ Website {Project}/
 *   **Styling:** Modify the `style.css` file to change the website's appearance. You can easily adjust colors by changing the CSS variables for the light and dark themes.
 *   **Content:** Update the `index.html` file to change the text content on the website.
 
-## Contributing
-
-(If you plan to make this project open source, add guidelines here on how others can contribute to the project. This might include information on how to report bugs, submit pull requests, and coding style conventions.)
-
-## License
-
-(Add a license for your project if you want to make it open-source. Common licenses are MIT, Apache 2.0, or GPLv3. If you are not sure, you can leave this section out for now.)
-
 ## Acknowledgements
 
 *   Department of Electronics, Quaid-i-Azam University
