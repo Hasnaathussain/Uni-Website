@@ -8,7 +8,7 @@ faculty_data = [
         "name": "Dr. Musarat Abaas",
         "Designation": "Associate Professor",
         "image_filename": "DSC_0159.jpeg",  # Store only the filename here
-        "Qualifications":"BS in Electronics, MS in Electrical Engineering & PhD in Degital Design",
+        "Qualifications":"BS in Electronics, MS in Electrical Engineering & PhD in Digital Design",
         "Publications":"https://www.researchgate.net/profile/Musarat-Abbas-3",
         "Area": "Digital Design, VLSI Design, Embedded Systems, FPGA Design, Verilog, System Verilog, and Computer Architecture",
         "email": "Musarat.Abbas@qau.edu.pk",
