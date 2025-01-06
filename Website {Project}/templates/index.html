@@ -12,16 +12,25 @@
             <img src="{{ url_for('static', filename='images/qau_logo.jpg') }}" alt="QAU Logo" class="qau-logo">
             <div class="header-text">
                 <div class="marquee">
-                    <p>Welcome to the Department of Electronics - Latest News: Research grant awarded to Dr. Kamran</p>
+                    <p>Welcome to the Department of Electronics - Latest News: Research grant awarded to Dr. Kamran. A seminar on <strong>Quantum Cryptography</strong> is scheduled on 20 January 2025. </p>
                 </div>
                 <header> 
-                <h1>Department of Electronics</h1>
-                <p>Quaid-i-Azam University, Islamabad</p>
+                    <h1 style="color: green; background-color: rgb(255, 176, 6); display: inline-block; padding: 10px;">
+                        Department of Electronics
+                        <span style="display: block; font-size: medium; color: green;">
+                         Quaid-i-Azam University, Islamabad
+                        </span>
+                    </h1>
                 </header>
-            </div>
-            <button id="theme-toggle">Toggle Theme</button>
-        </div>
     </header>
+    
+<div class="toggle-container">
+        <button id="theme-toggle">
+            <img src="{{ url_for('static', filename='images/dark-mode.png') }}" alt="Dark Mode Image" class="dark-mode-image">
+            Toggle Theme
+        </button>
+
+
 
     <nav>
         <ul>
@@ -34,13 +43,13 @@
     </nav>
 
     <section id="intro">
+        
         <h2>Introduction</h2>
-        <p><b>Name:</b> Muhammad Hasnaat Hussain</p>
-        <p><b>Semester:</b> 3rd Semester </p>
-        <p><b>Roll No.:</b> 04102313043</p>
+        <p><b>Name:</b> Muhammad Hasnaat Hussain & Muhammad ObaidUllah </p>
+        <p><b>Semester:</b> 3rd Semester</p>
+        <p><b>Roll No.:</b> 04102313043 & 04102313052</p>
         <p><b>Project:</b> Website for Department of Electronics, QAU</p>
     </section>
-
     <section id="about">
         <h2>About the Department</h2>
         <div class="tabs">
@@ -67,6 +76,9 @@
         <div class="faculty-list">
             </div>
     </section>
+    <div class="image-container">
+        <img src="{{ url_for('static', filename='images/bs.png') }}" alt="BS Image" >
+    </div>
 
     <section id="research">
         <h2>Research Areas</h2>
@@ -97,7 +109,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Department of Electronics, QAU</p>
+        <p>&copy; 2025 Department of Electronics, QAU</p>
     </footer>
 
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
