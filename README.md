@@ -1,6 +1,7 @@
 # Department of Electronics - Quaid-i-Azam University Website
 
-This project is a university assignment to develop an interactive and detailed website for the Department of Electronics at Quaid-i-Azam University, Islamabad.
+This project is a university assignment to develop an interactive and detailed website for the Department of Electronics at Quaid-i-Azam University, Islamabad. Website is currently deployed on cloud server "vercel". You can access the website on:
+https://uni-website-rosy.vercel.app/. 
 
 ## Project Overview
 
