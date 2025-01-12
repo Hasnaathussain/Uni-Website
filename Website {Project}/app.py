@@ -29,7 +29,7 @@ faculty_data = [
     },
     {
         "name": "Dr. Farhan Saif",
-        "Designation": "Assistant Professor",
+        "Designation": "Associate Professor",
         "image_filename": "Dr.farhan.png",  # Store only the filename here
         "Qualifications":"M.Sc, Department of Physics QAU (Gold Medal) "
         "MPhil, Department of Electronics QAU (World Lab Fellow) "
@@ -43,7 +43,7 @@ faculty_data = [
     },
     {
         "name": "Dr. Hasan Mehmood",
-        "Designation": "Assistant Professor",
+        "Designation": "Associate Professor",
         "image_filename": "hss.jpeg",  # Store only the filename here
         "Qualifications":"Ph.D, Electrical Engineering, 2007 Stevens Institute of Technology Castle Point on Hudson, Hoboken NJ 07030, USA. "
         "M.Sc, Electrical Engineering/Communications Technology, 2002 University of Ulm, Ulm 89069, Germany ",
