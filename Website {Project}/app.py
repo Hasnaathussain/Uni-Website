@@ -2,6 +2,10 @@ from flask import Flask, render_template, request, jsonify, url_for
 
 app = Flask(__name__, static_folder='static')
 
+npm i @vercel/speed-insights
+import { injectSpeedInsights } from '@vercel/speed-insights';
+
+injectSpeedInsights();
 
 # Sample data (replace with your actual data)
 faculty_data = [
